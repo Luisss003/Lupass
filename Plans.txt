@@ -1,0 +1,7 @@
+main.py  # Main entry point (CLI logic)
+config.py         # Configuration settings (file paths, encryption settings)
+encryption.py     # Encryption and decryption functions (Cryptography library)
+database.py       # Functions to interact with the secure password database (CRUD)
+user_auth.py      # User authentication (login, password hashing)
+utils.py          # Utility functions (password generation, error handling)
+passwords.db      # Encrypted database file (SQLite or JSON, encrypted)
